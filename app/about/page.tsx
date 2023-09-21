@@ -2,7 +2,7 @@ import { title } from "@/components/primitives";
 import { Card, CardBody, CardHeader } from "@nextui-org/card";
 import { Divider } from "@nextui-org/divider";
 import { Image } from "@nextui-org/image";
-
+import { Accordion, AccordionItem } from "@nextui-org/accordion";
 export default function AboutPage() {
   return (
     <div className=" w-full">
@@ -69,6 +69,16 @@ export default function AboutPage() {
             </Card>
           </div>
         </div>
+      </div>
+      <div>
+        <h1 className={title()}>Vision Statement</h1>
+        <p className=" py-6 text-left text-lg max-w-4xl mx-auto p-2 font-semibold">
+          {" "}
+          CodeX envisions a future where innovation in computer science and game
+          development knows no bounds. We are dedicated to pushing the
+          boundaries of technology, fostering creativity, and creating immersive
+          digital experiences that captivate and inspire.
+        </p>
       </div>
     </div>
   );
