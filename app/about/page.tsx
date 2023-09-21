@@ -7,7 +7,7 @@ export default function AboutPage() {
   return (
     <div className=" w-full">
       <h1 className={title()}>Our Team</h1>
-      <div className=" w-full flex flex-row  items-center justify-center gap-5 py-12">
+      <div className=" w-full flex flex-col md:flex-row  items-center justify-center gap-5 py-12">
         <div className=" flex flex-col gap-3">
           <Image
             width={300}
