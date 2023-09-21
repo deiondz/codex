@@ -8,6 +8,9 @@ import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 
 export const metadata: Metadata = {
+  openGraph: {
+    images: "/Logo.png",
+  },
   title: {
     default: siteConfig.name,
     template: `%s - ${siteConfig.name}`,
