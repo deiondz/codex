@@ -47,7 +47,7 @@ export const siteConfig = {
       url: "Flutter - Firebase",
       description:
         "Scrub is a neworking application that is made using cutting edget technology - Flutter and Firebase in the backend. Features include Authentication and Chatbox system",
-      more: "/projects/Srub",
+      more: "/projects/Scrub",
     },
     {
       title: "Jurassic Dash",
