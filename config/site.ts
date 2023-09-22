@@ -46,7 +46,7 @@ export const siteConfig = {
       img: "Srub.svg",
       url: "Flutter - Firebase",
       description:
-        "Scrub is a neworking application that is made using cutting edget technology - Flutter and Firebase in the backend. Features include Authentication and Chatbox system",
+        "Scrub is a neworking application that is made using cutting edge technology - Flutter and Firebase in the backend. Features include Authentication and Chatbox system",
       more: "/projects/Scrub",
     },
     {
