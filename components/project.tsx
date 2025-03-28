@@ -6,19 +6,11 @@ import { Link } from "@nextui-org/link";
 import { Image } from "@nextui-org/image";
 export default function Project() {
   return (
-    <div className=" flex-col  item-center justify-center">
-      <div className=" py-8 flex flex-col md:flex-row gap-10">
+    <div className="flex-col justify-center item-center">
+      <div className="grid grid-cols-1 gap-10 py-8 md:grid-cols-2 lg:grid-cols-3">
         {siteConfig.project.map((item, key) => (
           <Card key={key} className="max-w-[400px]">
             <CardHeader className="flex gap-3">
-              <Image
-                radius="lg"
-                isBlurred
-                isZoomed
-                className="   object-cover"
-                src={item.img}
-                alt={item.img}
-              />
               <div className="flex flex-col">
                 <p className="text-md">{item.title}</p>
                 <p className="text-small text-default-500">{item.url}</p>

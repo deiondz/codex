@@ -15,7 +15,7 @@ import { Image } from "@nextui-org/image";
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center gap-2 py-8 md:py-10">
-      <div className="inline-block max-w-lg absolute top-36 text-center justify-center ">
+      <div className="absolute justify-center inline-block max-w-lg text-center top-36 ">
         <h1 className={title()}>Codex:&nbsp;</h1>
         <h1 className={title({ color: "violet" })}>Crafting&nbsp;</h1>
         <br />
@@ -36,22 +36,14 @@ export default function Home() {
           }
         </h1>
       </div>
-      <div className=" absolute top-80 p-6 flex-col  item-center justify-center">
+      <div className="absolute flex-col justify-center p-6 top-80 item-center">
         <h1 className={" font-bold text-center text-3xl"}>
           Check Out Our Projects
         </h1>
-        <div className=" py-8 flex flex-col md:flex-row gap-10">
+        <div className="grid grid-cols-1 gap-10 py-8 md:grid-cols-2 lg:grid-cols-3">
           {siteConfig.project.map((item, key) => (
             <Card key={key} className="max-w-[400px]">
               <CardHeader className="flex gap-3">
-                <Image
-                  radius="lg"
-                  isBlurred
-                  isZoomed
-                  className="   object-cover"
-                  src={item.img}
-                  alt={item.img}
-                />
                 <div className="flex flex-col">
                   <p className="text-md">{item.title}</p>
                   <p className="text-small text-default-500">{item.url}</p>

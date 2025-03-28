@@ -42,28 +42,36 @@ export const siteConfig = {
   },
   project: [
     {
-      title: "Scrub",
-      img: "Srub.svg",
-      url: "Flutter - Firebase",
+      title: "BinSense Waste Analytics",
+      img: "https://www.upwork.com/att/download/portfolio/persons/uid/964929488448684032/profile/projects/files/84851d89-9003-43f7-b631-f460891e90ad",
+      url: "Next.js - Supabase - Gemini AI",
       description:
-        "Scrub is a neworking application that is made using cutting edge technology - Flutter and Firebase in the backend. Features include Authentication and Chatbox system",
-      more: "/projects/Scrub",
+        "BinSense is an AI-powered waste management system that analyzes waste metrics and categorizes waste types, including e-waste, toxic waste, wet waste, and dry waste. It integrates with IoT waste bins to automate data collection and segregation, aiming to reduce landfill waste and enhance sustainability practices.",
+      more: "/projects/BinSense",
     },
     {
-      title: "Jurassic Dash",
-      img: "JDlogo.png",
-      url: "GDevelop",
+      title: "Oasis Ticketing System",
+      img: "https://media.licdn.com/dms/image/v2/D4D22AQF3Nep2-D0l9w/feedshare-shrink_2048_1536/B4DZVmS8ZlG8As-/0/1741177998477?e=1744243200&v=beta&t=-fP2gkrHUhHsrOnGBkrNR5HdEpwPeyVUGJYARINzfLQ",
+      url: "Next.js - Supabase - Clerk - Razorpay API",
       description:
-        "It's an endless platformer game styled to evoke a retro aesthetic, with platforms generated randomly using an in-game algorithm.",
-      more: "/projects/JurassicDash",
+        "Oasis is a custom-built ticketing system designed to streamline TEDx event management by automating ticket sales, attendee data collection, and providing real-time insights. Developed using Next.js and Supabase, it replaces inefficient past methods and ensures a seamless experience for both organizers and attendees.",
+      more: "/projects/Oasis",
     },
     {
-      title: "CodeX",
-      img: "Codex.svg",
-      url: "NextJs",
+      title: "Note Vault",
+      img: "NoteVault.svg",
+      url: "Next.js - Tailwind CSS - NextUI",
       description:
-        "CodeX is a brand we've crafted with the intention of innovating, exploring new horizons in computer science, and diving into the world of game development. Welcome to our portfolio website, built using Next.js and React.",
-      more: "/projects/CodeX",
+        "Note Vault is a user-friendly web application designed to serve as a centralized hub for storing and accessing college notes. Built using Next.js, Tailwind CSS, and the NextUI component library, it offers a seamless experience for students to organize and retrieve lecture notes, past papers, and study resources.",
+      more: "/projects/NoteVault",
+    },
+    {
+      title: "Spatial",
+      img: "https://media.licdn.com/dms/image/v2/D4D22AQFRonsymukE0w/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1725474813462?e=1746057600&v=beta&t=1pIhW__g3wkOcQdAuNhqy9APogZ-34HeahYfDy_Q_f0",
+      url: "Next.js - Supabase - Flask - Raspberry Pi",
+      description:
+        "Spatial is a real-time crowd monitoring system that estimates the number of people on a bus using Bluetooth signals from nearby devices. The project aims to enhance public safety by preventing overcrowding incidents.",
+      more: "/projects/Spatial",
     },
   ],
 };

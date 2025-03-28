@@ -5,11 +5,11 @@ import { Image } from "@nextui-org/image";
 import { Accordion, AccordionItem } from "@nextui-org/accordion";
 export default function AboutPage() {
   return (
-    <div className=" w-full">
+    <div className="w-full ">
       <h1 className={title()}>Our Team</h1>
 
-      <div className=" w-full flex flex-col md:flex-row  items-center justify-center gap-5 py-12">
-        <div className=" flex flex-col gap-3">
+      <div className="flex flex-col items-center justify-center w-full gap-5 py-12 md:flex-row">
+        <div className="flex flex-col gap-3 ">
           <Image
             width={300}
             radius="lg"
@@ -17,10 +17,10 @@ export default function AboutPage() {
             src="john.jpg"
             alt="Johnathan"
           />
-          <div className=" w-full ">
+          <div className="w-full ">
             <Card>
               <CardHeader>
-                <h1 className=" text-xl">Jonathan Correa ☀️</h1>
+                <h1 className="text-xl ">Jonathan Correa ☀️</h1>
               </CardHeader>
               <Divider />
               <CardBody>
@@ -29,7 +29,7 @@ export default function AboutPage() {
             </Card>
           </div>
         </div>
-        <div className=" flex flex-col gap-3">
+        <div className="flex flex-col gap-3 ">
           <Image
             width={300}
             radius="lg"
@@ -40,7 +40,7 @@ export default function AboutPage() {
           <div>
             <Card>
               <CardHeader>
-                <h1 className=" text-xl">Deion Dsouza</h1>
+                <h1 className="text-xl ">Deion Dsouza</h1>
               </CardHeader>
               <Divider />
               <CardBody>
@@ -49,22 +49,22 @@ export default function AboutPage() {
             </Card>
           </div>
         </div>
-        <div className=" flex flex-col gap-3">
+        <div className="flex flex-col gap-3 ">
           <Image
             width={300}
             radius="lg"
             className="  w-[300px] h-[300px] object-cover"
-            src="Akilesh.jpg"
-            alt="Akilesh"
+            src="Deion.jpg"
+            alt="Deion"
           />
           <div>
             <Card>
               <CardHeader>
-                <h1 className=" text-xl"> Akhilesh </h1>
+                <h1 className="text-xl ">Deion Dsouza</h1>
               </CardHeader>
               <Divider />
               <CardBody>
-                <p>Rust & Flutter Development</p>
+                <p>Frontend Developer - React & NextJS</p>
               </CardBody>
             </Card>
           </div>
@@ -72,12 +72,10 @@ export default function AboutPage() {
       </div>
       <div>
         <h1 className={title()}>Vision Statement</h1>
-        <p className=" py-6 text-left text-lg max-w-4xl mx-auto p-2 font-semibold">
+        <p className="max-w-4xl p-2 py-6 mx-auto text-lg font-semibold text-center ">
           {" "}
-          CodeX envisions a future where innovation in computer science and game
-          development knows no bounds. We are dedicated to pushing the
-          boundaries of technology, fostering creativity, and creating immersive
-          digital experiences that captivate and inspire.
+          We just want to build more cool stuff and make the world a better
+          place.
         </p>
       </div>
     </div>
